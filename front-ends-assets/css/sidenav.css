@@ -1,0 +1,267 @@
+ body {
+     background-color: #f0f0f0;
+     font-family: 'supermarket';
+     font-size: 24px;
+     color: #080808;
+ }
+ 
+ .header-color {
+     color: #000000;
+ }
+ 
+ .text-border-between {
+     background-color: #ffffff;
+ }
+ 
+ .nav-destop {
+     background-color: #fff;
+     position: relative;
+     z-index: 2001;
+ }
+ 
+ .navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:hover {
+     color: #DAA520 !important;
+ }
+ 
+ .footer {
+     border-top: 3px solid transparent;
+     background-color: #fff;
+     color: #080808;
+ }
+ 
+ .navbar-dark .navbar-nav .nav-link {
+     color: #080808;
+     font-size: 24px;
+ }
+ 
+ .nav-item.active .nav-link {
+     color: #DAA520 !important;
+     font-weight: bold;
+     font-size: 24px;
+ }
+ 
+ .content-editor {
+     color: #181818;
+     font-size: 24px;
+ }
+ 
+ .content-editor h3 {
+     color: #000000;
+     font-size: 36px;
+ }
+ 
+ .c-red {
+     color: #000000 !important;
+ }
+ 
+ .c-gray {
+     color: #7C7870 !important;
+ }
+ 
+ .c-black {
+     color: #080808 !important;
+ }
+ 
+ .c-light-gray {
+     color: #BEB5A3 !important;
+ }
+ .bg-color{
+    background: #fff;
+ }
+ .gra-dian-bor{
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    height: 3px;
+ }
+
+ .tap-color {
+     background-color: #080808;
+     height: 60px;
+ }
+ 
+ .main-footer {
+     color: #DAA520;
+     font-size: 24px;
+ }
+ 
+ .help-contact {
+     color: #000000;
+     font-size: 14px;
+ }
+ 
+ .burger-color {
+     color: #fff;
+     font-size: 30px;
+     margin-top: 32px;
+ }
+ 
+ .dropdown-item.active,
+ .dropdown-item:active {
+     color: #fff;
+     text-decoration: none;
+     background-color: #C80000;
+ }
+ 
+ .text-upderline {
+     border-bottom: 1px solid #DAA520;
+ }
+ 
+ .mobile-logo {
+     color: #fff;
+     font-size: 18px;
+     height: 90px;
+ }
+ 
+ .bor-nav-tran {
+     border-top: 3px solid transparent;
+     border-bottom: 3px solid transparent;
+ }
+ 
+ .btn-register {
+     /* background-color: #080808; */
+     background: linear-gradient(to right, #BF953F, #FBF5B7, #AA771C);
+     /* border: 1px solid #080808; */
+     color: #000000;
+     width: 180px;
+     height: 40px;
+ }
+ 
+ .posit {
+     position: absolute;
+     right: 20px;
+ }
+ 
+ .title-footer {
+     font-size: 24px;
+ }
+ 
+ .des-footer {
+     font: 16px;
+ }
+ 
+ .font-allright {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ h1 {
+     color:#DAA520;
+     font-size: 36px;
+ }
+ 
+ h3 {
+     font-size: 36px;
+ }
+ 
+ .h-top-logo {
+     height: 80px;
+ }
+ 
+ .nav-top-logo {
+     font-size: 30px;
+ }
+ 
+ .dropdown-menu {
+     padding: 0 0;
+     border-radius: 0px;
+ }
+ 
+ .logo-size {
+     height: 80px;
+ }
+ 
+ .left-content {
+     right: 0;
+     position: absolute;
+ }
+ 
+ .nav-mobile {
+     display: none;
+ }
+ 
+ .sidenav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+     z-index: 2001;
+ }
+ 
+ .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 24px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+ }
+ 
+ .sidenav a:hover {
+     color: #606060;
+ }
+ 
+ .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .inside-nav {
+     position: relative;
+ }
+ 
+ .po-si-r {
+     position: absolute;
+     right: 20px;
+ }
+ 
+ .nav-mobile {
+     z-index: 2001;
+     position: relative;
+     background-color: #000;
+ }
+ 
+ .banner-home-mobile {
+     display: none;
+ }
+ 
+ @media screen and (max-width: 1600px) {}
+ 
+ @media screen and (max-width: 1250px) {}
+ 
+ @media screen and (max-width: 1254px) {
+     .nav-destop {
+         display: none;
+     }
+     .nav-mobile {
+         display: block;
+     }
+     .banner-home {
+         display: none;
+     }
+     .banner-home-mobile {
+         display: block;
+     }
+ }
+ 
+ @media screen and (max-height: 450px) {
+     .sidenav {
+         padding-top: 15px;
+     }
+     .sidenav a {
+         font-size: 18px;
+     }
+ }
+ 
+ .icon-destop {
+    width: 238px;
+    padding: 12px 0px;
+ }
